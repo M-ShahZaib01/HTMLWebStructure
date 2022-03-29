@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+      th {
+        min-width: 100px;
+      }
+
+      input,
+      label,
+      button {
+        float: left;
+      }
+      fieldset {
+        text-align: center;
+      }
+      .loginLink {
+        float: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <center>
+          <table border="1px">
+            <tr>
+              <th>
+                <a href="index.html"
+                  ><img
+                    src="Images/saylani-logo.png"
+                    alt="Saylani logo"
+                    width="150px"
+                /></a>
+              </th>
+              <th><a href="index.html">Home</a></th>
+              <th><a href="about.html">About</a></th>
+              <th><a href="gallery.html">Gallery</a></th>
+              <th><a href="media.html">Media</a></th>
+              <th><a href="contact.html">Contact</a></th>
+              <th><a href="login.html">Login</a></th>
+              <th><a href="register.html">Register</a></th>
+            </tr>
+          </table>
+        </center>
+      </nav>
+    </header>
+    <hr />
+    <center>
+      <h1>This is Register Page</h1>
+      <hr />
+      <h2>Please Register to Continue</h2>
+      <p>All fields are required.</p>
+      <center>
+        <hr />
+        <form action="" method="">
+          <fieldset style="width: fit-content">
+            <legend>Register</legend>
+
+            <label for="FullName">Full Name: </label><br />
+            <input
+              type="text"
+              id="FullName"
+              name="FullName"
+              placeholder="Full Name"
+            />
+            <br /><br />
+            <label for="email">Email: </label><br />
+            <input
+              type="email"
+              id="email"
+              name="Email"
+              placeholder="Email Address"
+            />
+            <br /><br />
+            <label for="password">Password:</label><br />
+            <input
+              type="Password"
+              id="password"
+              placeholder="Password"
+              name="Password"
+            />
+            <br /><br />
+            <p>
+              <label for="Gender:">Gender:</label>
+              <br />
+              <label for="Male">Male</label>
+              <input type="radio" name="Gender" value="Male" id="Male" />
+              <label for="Female">Female</label>
+              <input type="radio" name="Gender" value="Female" id="Female" />
+            </p>
+            <br />
+            <p>
+              <label for="Hobbies:">Hobbies:</label>
+              <br />
+              <label for="Cricket">Cricket</label>
+              <input type="checkbox" name="Cricket" id="Cricket" />
+              <label for="Movies">Movies</label>
+              <input type="checkbox" name="Movies" id="Movies" />
+              <label for="Music">Music</label>
+              <input type="checkbox" name="Music" id="Music" />
+            </p>
+            <br />
+            <p style="text-align: left">
+              Country:
+              <br />
+              <select name="Country" id="Country">
+                <option value="" disabled selected></option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Turkey">Turkey</option>
+                <option value="China">China</option>
+                <option value="Korea">Korea</option>
+                <option value="Saudia">Saudi Arab</option>
+                <option value="America">America</option>
+              </select>
+            </p>
+            <br />
+            <p style="text-align: left">
+              D.O.B
+              <br />
+              <input type="Date" name="D.O.B" />
+            </p>
+            <br />
+            <p style="text-align: left">
+              Upload your Photo:
+              <br />
+              <input type="file" name="photo" id="photo" />
+            </p>
+            <br />
+            <button value="Register">Register</button><br /><br />
+            <a href="login.html" class="loginLink">Already a user?</a>
+          </fieldset>
+        </form>
+      </center>
+    </center>
+
+    <h1></h1>
+
+    <hr />
+    <center>
+      <footer>
+        <p>Copyright&copy; 2021. All right reserved</p>
+      </footer>
+    </center>
+  </body>
+</html>
